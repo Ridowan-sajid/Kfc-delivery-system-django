@@ -1,0 +1,130 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+.parent{
+ background-color: white;
+ padding-top: 1rem;
+}
+
+.form-parent{
+
+ display: flex;
+ justify-content: center;
+ background-color: rgb(255, 255, 255);
+ width: 35vw;
+ min-height: 40vh;
+ margin: 0 auto;
+ padding-top: 2rem;
+ border-radius: 20px;
+
+
+}
+form{
+ padding: 0 2rem;
+ box-shadow: 4px 5px 5px rgba(0,0,0,0.1);
+ border-radius: 20px;
+
+}
+.btn{
+ padding: 7px;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+ color: white;
+ background-color: green;
+ border:1px solid green;
+ 
+}
+a{
+ text-decoration: none;
+}
+label{
+ font-size: 1.2rem;
+}
+input{
+ display: block;
+ height: 2rem;
+ width: 20rem;
+ margin:10px 0px;
+ background-color: white;
+ 
+}
+
+#id_pizza_type{
+ width: 10rem;
+}
+.navbar{
+ max-height: 10vh;
+ background-color: lightskyblue;
+ padding-bottom: 2rem;
+}
+.new-user,.authen{
+ display: flex;
+ justify-content: space-between;
+ padding-top: .7rem;
+ width: 90%;
+ margin: 0 auto;
+}
+.login{
+ padding-top: 5rem;
+}
+.order{
+ text-align: center;
+ width: 60vw;
+ margin:5vh auto 0 auto;
+
+}
+.details{
+ margin: 4vh 0;
+ box-shadow: 4px 6px 5px rgba(0,0,0,0.1);
+}
+.details{
+ padding: 1rem 0;
+}
+.order-grid{
+text-align: center;
+ padding-top: 30vh;
+}
+.order-grid .btn-2{
+ color: white;
+ margin: 0.5rem;
+ padding:0.6rem;
+ box-shadow: 1px 5px 2px rgba(0,0,0,0.1);
+ width: 10rem;
+
+}
+.logout{
+text-align: center;
+ padding-top: 30vh;
+}
+
+#id_pizza_type{
+ width: 15rem;
+ height: 1.5rem;
+}
+#id_extra_item{
+ width: 15rem;
+ height: 1.5rem;
+}
+
+@media screen and (max-width: 415px) {
+ input{
+  width: 70vw;
+ }
+ .order{
+  width: 70vw;
+
+ }
+
+}
+.banner-img{
+ width: 38rem;
+ 
+}
+.ban-img{
+ display: flex;
+ justify-content: center;
+ align-self: center;
+}
+

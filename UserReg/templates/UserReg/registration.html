@@ -1,0 +1,21 @@
+{% extends "Kfc/home.html" %}
+{% block content %}
+<div class="parent">
+    <div class="form-parent">
+
+    <form method="POST">
+        <h1 style="padding-bottom: 1rem;">Register Here</h1>
+        {% csrf_token %}
+        {{ form }}
+        <button class="btn">Sign up</button>
+    </form>
+
+</div>
+</div>
+
+
+{% endblock %}
+
+
+
+

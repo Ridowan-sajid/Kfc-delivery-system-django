@@ -1,0 +1,68 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'UserReg/style.css' %}">
+    <title>Document</title>
+</head>
+<body>
+<div class="navbar">
+
+    {% if user.is_authenticated %}
+    <div class="authen">
+        <div class="home-grid-1">
+            <a href="{% url 'home' %}" style="color:white;font-size: 1.5rem;">Home</a>
+        </div>
+       
+        <div class="home-grid-2">
+            <a href="{% url 'logout' %}" style="color:white;font-size: 1.5rem;">Logout</a>
+        </div>
+    </div>
+
+    {% else %}
+        <div class="new-user">
+            <div class="first">
+                <a href="{% url 'home' %}" style="color:white;font-size: 1.5rem;">Home</a>
+            </div>
+            <div class="second">
+                <a href="{% url 'register' %}" style="color:white;font-size: 1.5rem;;margin-right: 1rem;">Register</a>
+                <a href="{% url 'login' %}" style="color:white;font-size: 1.5rem;">Log In</a>
+
+            </div>
+        </div>
+    {% endif %}
+
+
+</div>
+
+{% block content %}
+{% if user.is_authenticated %}
+    <div class="order-grid">
+        
+        <div class="order-grid-1">
+            <button class="btn-2"><a href="{% url 'order' %}">Order here</a></button>
+        </div>
+        <div class="order-grid-2">
+            <button class="btn-2"><a href="{% url 'order_details' %}">Order details</a></button>
+        </div>
+    </div>
+
+{% else %}
+<h1 style="text-align: center;color: rgba(0, 0, 0, 0.774);font-size: 2rem;padding: 2rem 0;">Great Food , Great Taste</h1>
+<div class="ban-img">
+    
+    <img src="{% static 'Kfc/PngItem_2251338.png' %}" class="banner-img" alt="image">
+</div>
+
+{% endif %}
+
+{% endblock %}
+<script src="{% static 'UserReg/script.js' %}"></script>
+
+
+</body>
+</html>
