@@ -18,7 +18,7 @@
 
 ### Home of our website
 
-After visiting out website the home page.
+Home page of our website.
 
 ![](https://github.com/Ridowan-sajid/Kfc-delivery-system-django/blob/master/images/Screenshot%20(40).png)
 
