@@ -30,13 +30,13 @@ User can register to make order.
 
 ### Login section
 
-After creating our account on register panel we can Login with those username and password.
+After creating account on register panel user can Login with those username and password.
 
 ![](https://github.com/Ridowan-sajid/Kfc-delivery-system-django/blob/master/images/Screenshot%20(42).png)
 
 ### After login
 
-After login we can order our desire types of kfc or we can see our ordered details.
+After login user can order user's desired types of kfc or user can see his/her ordered details.
 
 ![](https://github.com/Ridowan-sajid/Kfc-delivery-system-django/blob/master/images/Screenshot%20(43).png)
 
