@@ -19,4 +19,4 @@
 In this app we can register ourself . We can Login with our username and password. We can order our desired type. 
 
 
-![](https://github.com/Ridowan-sajid/gaming_website/blob/master/images/Screenshot%20(40).png)
+![](https://github.com/Ridowan-sajid/Kfc-delivery-system-django/blob/master/images/Screenshot%20(40).png)
