@@ -15,7 +15,7 @@ def order_form(request):
         if my_form.is_valid():
             Order.objects.create(
                 user=request.user,
-                KFC_type=my_form.cleaned_data.get('pizza_type'),
+                KFC_type=my_form.cleaned_data.get('KFC_type'),
                 mobile=my_form.cleaned_data.get('mobile'),
                 extra_item=my_form.cleaned_data.get('extra_item'),
                 location=my_form.cleaned_data.get('location'),
