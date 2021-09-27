@@ -24,7 +24,7 @@ Home page of our website.
 
 ### Register section
 
-User can register to make order.
+User have to register to make order.
 
 ![](https://github.com/Ridowan-sajid/Kfc-delivery-system-django/blob/master/images/Screenshot%20(41).png)
 
