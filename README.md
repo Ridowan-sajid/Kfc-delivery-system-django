@@ -12,7 +12,7 @@
 
 ## Database
 
-* Sql3
+* Sqlite3
 
 ## Short description:
 
