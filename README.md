@@ -50,4 +50,4 @@ To order user have to fill up this form with relevant data.
 
 User can see his/her ordered food. After delivered, user can see that "food has been delivered" with full details of his/her ordered food.
 
-![](https://github.com/Ridowan-sajid/Kfc-delivery-system-django/blob/master/images/Screenshot%20(45).png)
+![](https://github.com/Ridowan-sajid/Kfc-delivery-system-django/blob/master/images/Screenshot%20(104).png)
